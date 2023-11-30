@@ -1,3 +1,9 @@
 <tui-root>
-
+  <h2 tuiTitle>I am a title</h2>
+  <form [formGroup]="testForm">
+    <tui-input formControlName="testValue">
+      Enter text here
+      <input tuiTextfield />
+    </tui-input>
+  </form>
 </tui-root>
